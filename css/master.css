@@ -1,0 +1,37 @@
+.asd{
+  background-color: red;
+}
+
+.asdasd{
+  background-color: green;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+.img img{
+  width: 50%;
+}
+
+#a1 img {
+  opacity: 0.5;
+}
+#a1 img:hover {
+  opacity: 1;
+}
+
+#a2 img {
+  opacity: 0.5;
+  transition: 2s;
+  position: relative;
+  left: 147px;
+}
+#a2 img:hover {
+  opacity: 1;
+  left: 0;
+}
+.imghidden img {display: none;
+}
+.on:hover  .imghidden img {
+  display: block!important;
+}
